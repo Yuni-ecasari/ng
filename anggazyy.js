@@ -19,6 +19,7 @@ const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const { color, bgcolor } = require('./lib/color')
 const { buttonvirus } = require('./anggazyy/buttonvirus')
+const { buttonkal } = require('./anggazyy/buttonkal')
 const { ngazap } = require('./anggazyy/ngazap')
 const { jobot } = require('./anggazyy/jobot')
 const turbrek = `break`
@@ -855,7 +856,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "status": "INQUIRY",
 "surface": "CATALOG",
 "message": `© Felixzyy 1981${ngazap(prefix)}`,
-"jpegThumbnail": mekih,
+"jpegThumbnail": fs.readFileSync('./lib/thumb.jpg'),
 "orderTitle": `© Felixzyy 1981${ngazap(prefix)}`,
 "sellerJid": "50767666664@s.whatsapp.net",
 "token": "AR4TdfqMmZL1Hxo+dInFjtFNQAEBVE1RlecZAg8+2znapg==",	
@@ -1561,7 +1562,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
 "retailerId": `Felixzyy404 ??`,
-"url": "wa.me/6281523940672"
+"url": "wa.me/6281333782061"
 },
 "businessOwnerJid": "6281333782061@s.whatsapp.net",
 }
@@ -1729,7 +1730,7 @@ case 'santetto': {
 if (!isCreator) return
 
 yy = fs.readFileSync('./images/hwmods.HW')
-anggazyy404.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`anggazyy404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+anggazyy404.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`felixzyy404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
 }
 break
 case 'poll': {
@@ -1737,7 +1738,7 @@ if (!isCreator) return
 
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "POLLING BUG BY ANGGA",
+"name": "POLLING BUG BY FAJAR",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -1752,7 +1753,37 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "ANGGA said"
+"optionName": "FAJAR GANTENG"
+	}
+],
+"selectableOptionsCount": 5
+	}
+}), { userJid: m.chat, quoted: doc })
+anggazyy404.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.id })
+reply('sukses sendbug')
+}
+break
+case 'polli': {
+if (!isCreator) return
+
+var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+"pollCreationMessage": {
+"name": "UPDATE YOUTUBE",
+"options": [
+	{
+"optionName": "ADD FITUR"
+	},
+	{
+"optionName": "BAGI BAGI CASE"
+	},
+	{
+"optionName": "SHARE SCRIPT"
+	},
+	{
+"optionName": "SHARE NOMOR BOT"
+	},
+	{
+"optionName": "MENGENANG KAMU DECK DECK"
 	}
 ],
 "selectableOptionsCount": 5
@@ -1766,7 +1797,7 @@ case 'docuwalz2': {
 if (!isCreator) return
 
  ilih = fs.readFileSync('./images/hwmods.HW')
- anggazyy404.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`anggazyy404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+ anggazyy404.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`felixzyy404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
  }
  break
  case 'santetdia': {
@@ -1820,21 +1851,21 @@ if (!isCreator) return
 
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await anggazyy404.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
 }
 break
@@ -1845,21 +1876,21 @@ case 'ampas2' : {
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await anggazyy404.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(20)
-anggazyy404.sendMessage(Pe, {text: "Xd"}, {quoted: doc})
+anggazyy404.sendMessage(Pe, {text: "felixzyy404 APIs ~ 404"}, {quoted: doc})
 await sleep(10000)
 }
 break
