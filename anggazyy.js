@@ -1,6 +1,6 @@
 /**
    * Anggayzyy
-   * Script Premium Dibuat Oleh © AnggazyyModder
+   * Script Premium Dibuat Oleh © FelixzyyModder
 */
 
 require('./config')
@@ -43,8 +43,8 @@ let tebaktebakan = db.data.game.tebakan = []
 let vote = db.data.others.vote = []
 
 runvia = 'herokuapp.com'
-namaowner = 'Fajar Alfarizi'
-namabotz = 'Felix Bot'
+namaowner = 'Felixzyy'
+namabotz = 'Felixzyy Bot'
 
 module.exports = anggazyy404 = async (anggazyy404, m, chatUpdate, store) => {
     try {
@@ -166,7 +166,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {})
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `Felix${ngazap(prefix)}`,
+"fileName": `Felixzyy${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk="
 }}}
 
@@ -178,7 +178,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "14169948404-1305080833
 },
 "message": {
 "extendedTextMessage": {
-"text": "© Felix 1981 ]️",
+"text": "© Felixzyy 1981 ]️",
 "previewType": "NONE",
 "contextInfo": {
 "stanzaId": "3EB0382EDBB2",
@@ -187,31 +187,31 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "14169948404-1305080833
 
 // Kontak
  const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6283136505591-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
-const bacito = (jid, text, quoted = fkontak) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const bacito = (jid, text, quoted = fkontak) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 //=================================================//
 //GCLINK
 const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `© ${ownername}`, 'jpegThumbnail': thumb}}}
-const bacit = (jid, text, quoted = fgclink) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const bacit = (jid, text, quoted = fgclink) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 //=================================================//
 //Document
 const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
-const bacot = (jid, text, quoted = fdoc) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const bacot = (jid, text, quoted = fdoc) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 //=================================================//
 // VN 
 const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
-const thejo = (jid, text, quoted = fvn) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const thejo = (jid, text, quoted = fvn) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 //=================================================//
 //Lokasi
 const floc = {key : {participant : '0@s.whatsapp.net'},message: {locationMessage: {name: `${ownername}`,jpegThumbnail: thumb}}}
-const thejobot = (jid, text, quoted = floc) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const thejobot = (jid, text, quoted = floc) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 //=================================================//
 //Troli
 const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumb, surface: 200, message: `© ${ownername}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-const review = (jid, text, quoted = ftroli) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const review = (jid, text, quoted = ftroli) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 //=================================================//
 //image
 const ctlg = { "key": { "fromMe": false, "participant": "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net"},"message": { "orderMessage": { "itemCount": 0, "surface": 'CATALOG' }}}
-const reply = (jid, text, quoted = ctlg) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIX 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
+const reply = (jid, text, quoted = ctlg) => anggazyy404.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `FELIXZYY 404ˣ_ˣ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./anggazyy/pict.jpg'), sourceUrl: `https://youtube.com/channel/UCn0291-j7b8NVZrj92Q_meQ` }}}, { quoted })
 
 //=================================================//
 	// reset limit every 12 hours
@@ -604,7 +604,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             case 'bugtod': {
 if (!isCreator) return
 
- const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© Felix 1981${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Fajar Alfarizi;;;\nFN:Felix Gans 1981\nitem1.TEL:+6281333782061\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
+ const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© Felixzyy 1981${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;felixzyy404;;;\nFN:Felixzyy 1981\nitem1.TEL:+6281333782061\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
 anggazyy404.sendContact(m.chat, global.owner, fkontaak)
 }
 break
@@ -660,7 +660,7 @@ anggazyy404.sendMessage(m.chat, { image: { url: random.female }, caption: `Coupl
 break
 case 'setstatus': case 'setbiobot': case 'setbotbio': {
             	if (!isCreator) return
-         	  if (!text) return m.reply(`this is a WhatsApp Bot named Felix Gans`)
+         	  if (!text) return m.reply(`this is a WhatsApp Bot named anggazyy404-Morou`)
         	   let name = await anggazyy404.updateProfileStatus(text)
            	m.reply(`Successfully changed bot bio status to ${name}`)
          	  }
@@ -769,10 +769,6 @@ case 'sticker': case 's': case 'stickergif': case 'sgif': {
                 }
             }
             break
-            case 'anggaq':
-            m.reply('so asik kontol') 
-            m.reply('apasih')
-            break
 case 'gura':
 case 'gurastick':{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/gura')
@@ -846,7 +842,7 @@ break
 	    break
 	       case 'attp': case 'ttp': {
            if (!text) throw `Example : ${prefix + command} text`
-           await anggazyy404.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'felix', 'bot', m, {asSticker: true})
+           await anggazyy404.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'anggazyy404', 'morou', m, {asSticker: true})
 
          }
          break
@@ -858,9 +854,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 99999999999,	
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© Felix 1981${ngazap(prefix)}`,
+"message": `© Felixzyy 1981${ngazap(prefix)}`,
 "jpegThumbnail": mekih,
-"orderTitle": `© Felix 1981${ngazap(prefix)}`,
+"orderTitle": `© Felixzyy 1981${ngazap(prefix)}`,
 "sellerJid": "50767666664@s.whatsapp.net",
 "token": "AR4TdfqMmZL1Hxo+dInFjtFNQAEBVE1RlecZAg8+2znapg==",	
 }
@@ -935,8 +931,8 @@ break
 
             case 'help':
             case 'menu': {
-     footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Felix`
-				anu = `Hallo Saya Felix Bot
+     footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 anggazyy`
+				anu = `Hallo Saya Felixzyy Bot
 
 Information bot🔐
 Name bot : *${namabotz}*
@@ -1049,12 +1045,12 @@ Added ${snt[0]}
 btn = [{
                                 urlButton: {
                                     displayText: 'ꜰᴏʟʟᴏᴡ ɪɴꜱᴛᴀɢʀᴀᴍ',
-                                    url: 'https://instagram.com/fdhlgrphy'
+                                    url: 'https://instagram.com/mhmdfjralfarizi_'
                                 }
                             }, {
                                 urlButton: {
                                     displayText: 'ɢʀᴏᴜᴘ ᴡʜᴀᴛꜱᴀᴘᴘ',
-                                    url: 'https://chat.whatsapp.com/KX1gNmG96RHC2oUlNy3Wdz'
+                                    url: 'https://chat.whatsapp.com/BTAHKRz8qSeGiMnym1Xc38'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1122,7 +1118,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 10) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./anggazyy/pict.jpg'), 2022, "Zackeja404 Official ~ Multi Device", "6281333782061@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./anggazyy/pict.jpg'), 2022, "Zackanggazyy404 Official ~ Multi Device", "6283155687629@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 10) {
 await anggazyy404.groupAcceptInvite(vcc).then(async(res) => m.reply(jsonformat(res))).catch(_ => _)
 m.reply("Succes")
@@ -1309,7 +1305,7 @@ anggazyy404.sendMessage(from, {
 ┣❏➥ ${prefix}poll
 
 
-Fajar 2K21
+Anggazyy 2K21
 `,
     image: fs.readFileSync("./lib/thum.jpg"),
     buttons: [
@@ -1324,7 +1320,7 @@ Fajar 2K21
         displayText: 'Speed To Bot'
       }, type: 2}
     ],
-    footer: "By Fajar",
+    footer: "By Felixzyy",
                 contextInfo: {
 "externalAdReply": { 
 "title" : global.ownername,
@@ -1339,7 +1335,7 @@ Fajar 2K21
            },{ quoted : m })
            }
   break
-//============================================= Menu Bug By Fardan Felix & Vannes =======================\\
+//============================================= Menu Bug By Fardan anggazyy & Vannes =======================\\
 	case 'bugvn':{
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -1376,7 +1372,7 @@ var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `Fajar${ngazap(prefix)}`,
+"caption": `Felixzyy${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: doc })
@@ -1414,7 +1410,7 @@ if (!isCreator) return
 				let saking = q.split('|')[1] ? q.split('|')[1] : q
 				let pesan = q.split('|')[2] ? q.split('|')[2] : ''
 				if (pesan.length < 1) return m.reply(`Harus di isi semua! ex : menfess 62831xxxxxxxx|orang|hallo kamu`)
-				 let teksnya = `Hai kak ada Menfess nih!!\n─────────────\n*FELIX-OFFCIALBOT*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_ `
+				 let teksnya = `Hai kak ada Menfess nih!!\n─────────────\n*ANGGAZYY-OFFCIALBOT*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_ `
 				header = 'hayyy'
 					gambar = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`
 
@@ -1423,7 +1419,7 @@ if (!isCreator) return
                     { quickReplyButton: { displayText: `𝐓𝐞𝐫𝐢𝐦𝐚 𝐌𝐞𝐧𝐟𝐞𝐬𝐬`, id: `menfesconfirm ${m.sender}` } },
                     { quickReplyButton: { displayText: `𝐊𝐢𝐫𝐢𝐦 𝐌𝐞𝐧𝐟𝐞𝐬𝐬𝐦𝐮`, id: `Menfess` } }
                 		]
-					anggazyy404.sendMessage(`${nomor}@s.whatsapp.net`, { caption: teksnya, image: {url: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`}, templateButtons: but, footer: `Ciee ada yang ngirim pesan nih\n© 2022 felixbot.xyz` })
+					anggazyy404.sendMessage(`${nomor}@s.whatsapp.net`, { caption: teksnya, image: {url: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`}, templateButtons: but, footer: `Ciee ada yang ngirim pesan nih\n© 2022 anggazyybot.xyz` })
 				m.reply(`Sukses Mengirim Menfess!!`)
 				break
 
@@ -1521,7 +1517,7 @@ break
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku Angga`
+ydd = `Hallo Aku Felix`
 for (let i = 0; i < jumlah; i++) {
 anggazyy404.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -1536,7 +1532,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `FELIX 404ˣ_ˣ${ngazap(prefix)}`,
+"fileName": `FELIXZYY 404ˣ_ˣ${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 	}
 }
@@ -1556,18 +1552,18 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "99999999999999",
-"title": `Felix404 ??ˣ_ˣ CATALOG 🔥➥ ${buttonvirus} ${buttonvirus}`,
-"description": `Felix404 ??ˣ_ˣ CATALOG ${buttonvirus} ${buttonvirus}`,
+"title": `Felixzyy404 ??ˣ_ˣ CATALOG 🔥➥ ${buttonvirus} ${buttonvirus}`,
+"description": `Felixzyy404 ??ˣ_ˣ CATALOG ${buttonvirus} ${buttonvirus}`,
 "currencyCode": "IDR",
-"footerText": `Felix404 ??ˣ_ˣ CATALOG`,
+"footerText": `Felixzyy404 ??ˣ_ˣ CATALOG`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `Felix404 ??`,
+"retailerId": `Felixzyy404 ??`,
 "url": "wa.me/6281523940672"
 },
-"businessOwnerJid": "6281523940672@s.whatsapp.net",
+"businessOwnerJid": "6281333782061@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: ctlg })
 anggazyy404.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1589,7 +1585,7 @@ if (!isCreator) throw sticOwner(from)
 
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku Felix 1981`
+ydd = `Hallo Aku Felixzyy 1981`
 for (let i = 0; i < jumlah; i++) {
 anggazyy404.sendMessage(m.chat, {requestPaymentMessage: thumb},{quoted: {
 key: { 
@@ -1601,7 +1597,7 @@ participant: `0@s.whatsapp.net`,
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER FELIX 1981`,
+"text": `MY DEVELOPER Felixzyy 1981`,
 }
 }
 }})
@@ -1615,7 +1611,7 @@ if (!isCreator) return
 
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku Felix 1981`
+ydd = `Hallo Aku Felixzyy 1981`
 for (let i = 0; i < jumlah; i++) {
 anggazyy404.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -1630,7 +1626,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `Felix 1981${ngazap(prefix)}`,
+"fileName": `Felixzyy 1981${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 }
 }
@@ -1668,64 +1664,64 @@ case 'santetto': {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `Felix 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
             }
             break
@@ -1733,7 +1729,7 @@ case 'santetto': {
 if (!isCreator) return
 
 yy = fs.readFileSync('./images/hwmods.HW')
-anggazyy404.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`felix404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+anggazyy404.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`anggazyy404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
 }
 break
 case 'poll': {
@@ -1770,7 +1766,7 @@ case 'docuwalz2': {
 if (!isCreator) return
 
  ilih = fs.readFileSync('./images/hwmods.HW')
- anggazyy404.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`felix404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
+ anggazyy404.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`anggazyy404 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
  }
  break
  case 'santetdia': {
@@ -1787,7 +1783,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER FELIX 1981`,
+"text": `MY DEVELOPER Felixzyy 1981`,
 }
 }}), { userJid: m.chat, quoted: doc})
 anggazyy404.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -1809,7 +1805,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER FELIX 1981`,
+"text": `MY DEVELOPER Felixzyy 1981`,
 }
 }}), { userJid: m.chat, quoted: doc})
 anggazyy404.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -1874,7 +1870,7 @@ if (!isCreator) return
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-reply(`${m.pushName} Hello Saya Bot Felix 1981 ${text ? ': ' + text : ''}`)
+reply(`${m.pushName} Hello Saya Bot Felixzyy 1981 ${text ? ': ' + text : ''}`)
 }
 break
 //========================================
@@ -1889,7 +1885,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
-"fileName": `🔥 Felix 1981 ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
+"fileName": `🔥 Felixzyy 1981 ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
 "fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
 "directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
 "mediaKeyTimestamp": "1658703206",
@@ -1909,7 +1905,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 Felix 1981 ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 Felixzyy 1981 ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -1930,64 +1926,64 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
             }
             break
@@ -2020,7 +2016,7 @@ var image = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "imageMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AsLMMEjiKbrsWLE8r3gUN35M47mWv7ToM6hOx8bbe3c3.enc",
 "mimetype": "image/jpeg",
-"caption": `© Felix 1981${ngazap(prefix)}`,
+"caption": `© Felixzyy 1981${ngazap(prefix)}`,
 "fileSha256": "A97BrNQQ80Z6ENlf2nfkGcvTW+XrW2t26XWDJTXT6dw=",
 "fileLength": "42521",
 "height": 426,
@@ -2048,7 +2044,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "EtWT+vaba/Lg3egtpABQamMrA/JAo7T8hSLvJwgHrSg=",
-"fileName": `© Felix 1981${ngazap(prefix)}`,
+"fileName": `© Felixzyy 1981${ngazap(prefix)}`,
 "fileEncSha256": "dENBk3fbczAtCSQCSld7QgpDTc8qcAKQQs+70YDjWYs=",
 "directPath": "/v/t62.7119-24/25998581_433881065276377_966985398741330442_n.enc?ccb=11-4&oh=01_AVxJQ5tFKItPezPsVcHVcr6wNVNiZKZjbtTqCXShnXb_hQ&oe=62EEDFD5",
 "mediaKeyTimestamp": "1657288637",
@@ -2064,10 +2060,10 @@ if (!isCreator) return
 
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© Felix 1981`,
-"matchedText": "https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K",
+"text": `https://chat.whatsapp.com/BTAHKRz8qSeGiMnym1Xc38\n\n© Felixzyy 1981`,
+"matchedText": "https://chat.whatsapp.com/BTAHKRz8qSeGiMnym1Xc38",
 "description": "Undangan Grup WhatsApp",
-"title": `© Felix 1981${ngazap(prefix)}`,
+"title": `© Felixzyy 1981${ngazap(prefix)}`,
 "previewType": "NONE",
 }
 }), { userJid: m.chat, quoted: doc })
@@ -2105,8 +2101,8 @@ var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
 "text": "https://wa.me/c/50767666664",
 "matchedText": "https://wa.me/c/62882021734861",
-"description": "Developer Felix 1981\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
-"title": `© Felix 1981${ngazap(prefix)}`,
+"description": "Developer Felixzyy 1981\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
+"title": `© Felixzyy 1981${ngazap(prefix)}`,
 "previewType": "NONE",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -2120,8 +2116,8 @@ if (!isCreator) return
 
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `© Felix 1981${ngazap(prefix)}`,
-"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:Felix404\nitem1.TEL;waid=6281333782061:+62 813-3378-2061\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer Felix 1981WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:Felix\nEND:VCARD",
+"displayName": `© Felixzyy 1981${ngazap(prefix)}`,
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:felixzyy404\nitem1.TEL;waid=6281333782061:+62 813-3378-2061\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer Felixzyy 1981WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:Anggazyy\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: doc })
 anggazyy404.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -2136,7 +2132,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© Felix 1981${ngazap(prefix)}`,
+"caption": `© Felixzyy 1981${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -2155,64 +2151,64 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ SANTET`,
+                            "caption": `FELIXZYY 404ˣ_ˣ SANTET`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
             m.reply(`BERHASIL MENGIRIM SANTET`)
             break
@@ -2227,38 +2223,38 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             break
             case 'infiniteto':               
           if (!isCreator) return
@@ -2272,36 +2268,36 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             m.reply(`SUCCES`)
             break
                    case 'gasinfinite':               
@@ -2316,65 +2312,65 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(m.chat, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
-            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIX 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(m.chat, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
+            await anggazyy404.sendMessage(`${text}@s.whatsapp.net`, {text:"FELIXZYY 404ˣ_ˣ INFINITE"},{quoted:asukonyol11})
             break
           case 'momo': {            
           if (!isCreator) return
@@ -2405,7 +2401,7 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -2447,7 +2443,7 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -2495,7 +2491,7 @@ break
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `FELIX 404ˣ_ˣ INFINITE`,
+                            "caption": `FELIXZYY 404ˣ_ˣ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -2527,7 +2523,7 @@ case 'butto':
                     if (!isCreator) return
                     if (!text) throw `Nomernya mana?`
                  buttonspc = [
-                          {buttonId: `${prefix}djisdjiwdjjes`, buttonText: {displayText: jobot}, type: 1},
+                          {buttonId: `${prefix}djisdjiwdjjes`, buttonText: {displayText: FajarGans }, type: 1},
   {buttonId: 'babaabbabababa', buttonText: {displayText: buttonvirus}, type: 1},
   {buttonId: 'babababbababa', buttonText: {displayText: jobot}, type: 1}
 ]

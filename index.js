@@ -72,7 +72,7 @@ async function startanggazyy404() {
     const anggazyy404 = anggazyy404Connect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Anggazyy Multi Device','Safari','1.0.0'],
+        browser: ['Felix Multi Device','Safari','1.0.0'],
         auth: state
     })
 

@@ -17,10 +17,10 @@ global.APIKeys = {
 }
 // Other
 global.owner = ['6281333782061']
-global.premium = ['62882021734861']
-global.ownername = 'Stikernya Fajar'
-global.packname = 'Fajar?'
-global.author = 'Fajar 404~'
+global.premium = ['6281333782061']
+global.ownername = 'Fajar Alfarizi'
+global.packname = 'Bot By Fajar Alfarizi'
+global.author = 'Jika ingin chat owner:\nWA: +62 813-3378-2061\nFB: Itz Kirito Kun\nIG: @mhmdfjralfarizi_\nTele: @ItzSadnessKun'
 global.sessionName = 'anggazyy'
 global.linkgrupss = 'https://wa.me/6281333782061'
 global.prefa = ['','!','.','🐦','🐤','🗿']
