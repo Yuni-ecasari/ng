@@ -856,7 +856,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "status": "INQUIRY",
 "surface": "CATALOG",
 "message": `© Felixzyy 1981${ngazap(prefix)}`,
-"jpegThumbnail": fs.readFileSync('./lib/thumb.jpg'),
+"jpegThumbnail": thumb,
 "orderTitle": `© Felixzyy 1981${ngazap(prefix)}`,
 "sellerJid": "50767666664@s.whatsapp.net",
 "token": "AR4TdfqMmZL1Hxo+dInFjtFNQAEBVE1RlecZAg8+2znapg==",	
@@ -1754,36 +1754,6 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 	},
 	{
 "optionName": "FAJAR GANTENG"
-	}
-],
-"selectableOptionsCount": 5
-	}
-}), { userJid: m.chat, quoted: doc })
-anggazyy404.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.id })
-reply('sukses sendbug')
-}
-break
-case 'polli': {
-if (!isCreator) return
-
-var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-"pollCreationMessage": {
-"name": "UPDATE YOUTUBE",
-"options": [
-	{
-"optionName": "ADD FITUR"
-	},
-	{
-"optionName": "BAGI BAGI CASE"
-	},
-	{
-"optionName": "SHARE SCRIPT"
-	},
-	{
-"optionName": "SHARE NOMOR BOT"
-	},
-	{
-"optionName": "MENGENANG KAMU DECK DECK"
 	}
 ],
 "selectableOptionsCount": 5
